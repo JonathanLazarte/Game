@@ -123,7 +123,7 @@ window.onload = function(){
         audio[2].play(); 
     }
     function selectSaint(e){
-        var id = (e.currentTarget.parentElement.id);
+        var id = (e.currentTarget.id);
         var imagen = "images/characters/"+id+".png";
         
         if(spot1==false&&saints[id-1]==false){
